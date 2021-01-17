@@ -1,0 +1,56 @@
+body{font-family: cursive;}
+
+.jumbotron{
+  background-image: url("bg.jpeg"); /* The image used */
+background-color: #cccccc; /* Used if the image is unavailable */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+  
+ 
+  
+}
+
+.guessBox{
+ width: 150px;
+ height: 150px;
+ background-color:rgb(80, 69, 179);
+ position: relative;
+ left:37%;
+ border-radius:50%;
+ animation: myfirst 2s linear 2s infinite alternate;
+ font-size: 5em;
+ text-align: center;
+ border-style: dotted;
+ COLOR:WHITE;
+}
+@keyframes myfirst {
+0%   {background-color:purple; left:0px; top:0px;}
+50%  {background-color:rgb(86, 108, 168); left:50%; top:20px; border-style:groove;}
+50%  {background-color:rgb(91, 6, 102); left:70%; top:0px; border-style:inset;}
+100%  {background-color:rgb(51, 61, 13); left:80%; top:0px; border-style:outset}
+
+}
+
+button{
+    width:28%;
+}
+
+.modal-container{
+  background-color:rgb(6, 26, 44); 
+  border-bottom-right-radius:3em; 
+  height: 60vh;
+  color:white;
+}
+
+hr{
+  background-color:rgb(209, 186, 112);
+}
+
+
+.enter{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color:rgb(6, 26, 44);
+}
